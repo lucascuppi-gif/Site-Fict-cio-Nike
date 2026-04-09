@@ -1,0 +1,18 @@
+Este projeto é um clone fictício da interface da Nike, desenvolvido exclusivamente para fins de estudo e prática de desenvolvimento web. O foco principal foi criar uma interface moderna, limpa e totalmente responsiva.
+  O que foi usado:
+
+    HTML5: Para a estrutura do site.
+
+    CSS3: Para o visual, usando Grid e Flexbox para organizar os elementos.
+
+    JavaScript: Para criar o sistema de carrossel de produtos e efeitos de rolagem.
+
+  O que eu pratiquei:
+
+    Responsividade: O site se adapta para funcionar bem em computadores e celulares.
+
+    Animações: Efeitos de zoom nas imagens e botões que aparecem ao passar o mouse.
+
+    Layout: Organização de vitrines de produtos e banners de destaque.
+
+    Design System: Uso de cores e tipografia baseadas na identidade visual da Nike.

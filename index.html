@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>SNKRS</title>
+</head>
+
+<body>
+  <header>
+    <div class="header-container">
+      <svg class="header-logo" viewBox="0 0 1000 356" xmlns="http://www.w3.org/2000/svg">
+        <path d="M232.5 178.5C232.5 82.4 152.1 2 56 2S-120.5 82.4-120.5 178.5 959.9 354 1056 354c96.1 0-823.5-79.4-823.5-175.5z" />
+      </svg>
+      <nav>
+        <ul>
+          <li><a href="#">Masculino</a></li>
+          <li><a href="#">Feminino</a></li>
+          <li><a href="#">Kids</a></li>
+          <li><a href="#">Sale</a></li>
+          <li class="nome-marca"><a href="#">SNKRS</a></li>
+        </ul>
+      </nav>
+      <div class="header-icones">
+        <ul>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.35-4.35"></path>
+            </svg></li>
+          <li><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+            </svg></li>
+          <li class="carrinho"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
+              <circle cx="9" cy="21" r="1"></circle>
+              <circle cx="20" cy="21" r="1"></circle>
+              <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+            </svg></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <main>
+    <section class="slider">
+      <div class="slider-nav">
+        <button class="btn-nav next" id="btn">></button>
+        <button class="btn-nav back" id="btn">
+          < </button>
+      </div>
+      <div class="slide ativo preto">
+        <div class="slide-conteudo">
+          <h1>NIKE AIR VOID</h1>
+          <p>Experiência suprema. Design revolucionário. O futuro do conforto está aqui.</p>
+          <button>Comprar Agora</button>
+        </div>
+        <div class="slide-img">
+          <img src="./img/slide-preto.jpg" alt="NIKE AIR VOID">
+        </div>
+      </div>
+      <div class="slide vermelho">
+        <div class="slide-conteudo">
+          <h1>EDIÇÃO LIMITADA</h1>
+          <p>Exclusividade em vermelho. Apenas 500 unidades no mundo. Garanta o seu.</p>
+          <button>EXPLORAR</button>
+        </div>
+        <div class="slide-img">
+          <img src="./img/slide-vermelho.jpg" alt="NIKE AIR VOID">
+        </div>
+
+      </div>
+      <div class="slide branco">
+        <div class="slide-conteudo">
+          <h1>MINIMALISMO PURO</h1>
+          <p>Essência branca. Elegância atemporal. Performance maximalista.</p>
+          <button>DESCOBRIR</button>
+        </div>
+        <div class="slide-img">
+          <img src="./img/slide-branco.jpg" alt="NIKE AIR VOID">
+        </div>
+      </div>
+      <div class="bolinhas-container">
+        <span class="bolinha active"></span>
+        <span class="bolinha"></span>
+        <span class="bolinha"></span>
+      </div>
+    </section>
+    <section class="destaques">
+      <div class="item-destaque">
+        <img src="./img/destaque-1.jpg" alt="">
+        <div class="conteudo-destaque">
+          <p>Running</p>
+          <h3>AIR VOID RUNNER</h3>
+          <span>R$ 899,90</span>
+          <a href="#">ADICIONAR</a>
+        </div>
+      </div>
+      <div class="item-destaque">
+        <img src="./img/destaque-2.jpg" alt="">
+        <div class="conteudo-destaque">
+          <p>Basketball</p>
+          <h3>AIR VOID COURT</h3>
+          <span>R$ 1.199,90</span>
+          <a href="#">ADICIONAR</a>
+        </div>
+      </div>
+      <div class="item-destaque">
+        <img src="./img/destaque-3.jpg" alt="">
+        <div class="conteudo-destaque">
+          <p>Lifestyle</p>
+          <h3>AIR VOID LIFESTYLE</h3>
+          <span>R$ 799,90
+          </span>
+          <a href="#">ADICIONAR</a>
+        </div>
+      </div>
+    </section>
+    <section class="divulgacao">
+      <div class="divulgacao-img">
+        <img src="./img/slide-preto.jpg" alt="NIKE AIR VOID">
+      </div>
+      <div class="divulgacao-conteudo">
+        <h2>PERFORMANCE ABSOLUTA</h2>
+        <p>A tecnologia Air Void representa o auge da inovação Nike. Amortecimento supremo, leveza extrema e design que desafia os limites.</p>
+        <a href="#">SAIBA MAIS</a>
+      </div>
+    </section>
+    <section class="colecao">
+      <h2>COLEÇÃO COMPLETA</h2>
+      <div class="colecao-prudutos">
+        <div class="produto-item">
+          <div class="produto-img">
+            <img src="./img/destaque-1.jpg" alt="">
+            <a href="#">ADICIONAR</a>
+          </div>
+          <div class="produto-conteudo">
+            <h3>AIR VOID RUNNER</h3>
+            <span>Performance Running</span>
+            <span>R$ 899,90 </span>
+          </div>
+        </div>
+        <div class="produto-item">
+          <div class="produto-img">
+            <img src="./img/destaque-3.jpg" alt="">
+            <a href="#">ADICIONAR</a>
+          </div>
+          <div class="produto-conteudo">
+            <h3>AIR VOID LIFESTYLE</h3>
+            <span>Premium Lifestyle</span>
+            <span>R$ 799,90 </span>
+          </div>
+        </div>
+        <div class="produto-item">
+          <div class="produto-img">
+            <img src="./img/destaque-2.jpg" alt="">
+            <a href="#">ADICIONAR</a>
+          </div>
+          <div class="produto-conteudo">
+            <h3>AIR VOID COURT</h3>
+            <span>Basketball</span>
+            <span>R$ 1.199,90</span>
+          </div>
+        </div>
+        <div class="produto-item">
+          <div class="produto-img">
+            <img src="./img/Air Void Classic.jpg" alt="">
+            <a href="#">ADICIONAR</a>
+          </div>
+          <div class="produto-conteudo">
+            <h3>AIR VOID CLASSIC</h3>
+            <span>Casual Wear</span>
+            <span>R$ 749,90</span>
+          </div>
+        </div>
+        <div class="produto-item">
+          <div class="produto-img">
+            <img src="./img/Air Void Urban.jpg " alt="">
+            <a href="#">ADICIONAR</a>
+          </div>
+          <div class="produto-conteudo">
+            <h3>AIR VOID URBAN</h3>
+            <span>Street Style</span>
+            <span>R$ 849,90</span>
+          </div>
+        </div>
+        <div class="produto-item">
+          <div class="produto-img">
+            <img src="./img/slide-vermelho.jpg" alt="">
+            <a href="#">ADICIONAR</a>
+          </div>
+          <div class="produto-conteudo">
+            <h3>AIR VOID PRO</h3>
+            <span>Performance Running</span>
+            <span>R$ 1499,90</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="rolagem">
+      <div class="rolagem-container">
+        <div class="rolagem-titulo">
+          <h2>VOCÊ TAMBÉM PODE GOSTAR</h2>
+          <div class="botoes">
+            <button id="left">
+              < </button>
+                <button id="right">></button>
+          </div>
+        </div>
+        <div class="rolagem-cards">
+          <div class="rolagem-card">
+            <div class="rolagem-img">
+              <img src="./img/destaque-1.jpg" alt="">
+            </div>
+            <div class="rolagem-conteudo">
+              <h3>AIR VOID RUNNER</h3>
+              <span>R$ 899,90 </span>
+            </div>
+          </div>
+          <div class="rolagem-card">
+            <div class="rolagem-img">
+              <img src="./img/destaque-3.jpg" alt="">
+            </div>
+            <div class="rolagem-conteudo">
+              <h3>AIR VOID LIFESTYLE</h3>
+              <span>R$ 799,90 </span>
+            </div>
+          </div>
+          <div class="rolagem-card">
+            <div class="rolagem-img">
+              <img src="./img/destaque-2.jpg" alt="">
+            </div>
+            <div class="rolagem-conteudo">
+              <h3>AIR VOID COURT</h3>
+              <span>R$ 1.199,90</span>
+            </div>
+          </div>
+          <div class="rolagem-card">
+            <div class="rolagem-img">
+              <img src="./img/Air Void Classic.jpg" alt="">
+            </div>
+            <div class="rolagem-conteudo">
+              <h3>AIR VOID CLASSIC</h3>
+              <span>R$ 749,90</span>
+            </div>
+          </div>
+          <div class="rolagem-card">
+            <div class="rolagem-img">
+              <img src="./img/Air Void Urban.jpg " alt="">
+            </div>
+            <div class="rolagem-conteudo">
+              <h3>AIR VOID URBAN</h3>
+              <span>R$ 849,90</span>
+            </div>
+          </div>
+          <div class="rolagem-card">
+            <div class="rolagem-img">
+              <img src="./img/slide-vermelho.jpg" alt="">
+            </div>
+            <div class="rolagem-conteudo">
+              <h3>AIR VOID PRO</h3>
+              <span>R$ 1499,90</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="banner">
+      <div class="banner-container">
+        <h2>JUST TO DO IT</h2>
+        <p>Não há limites quando você tem os pés certos para levar você adiante.</p>
+        <button>COMEÇAR AGORA</button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>© 2026 Nike Air Void. Todos os direitos reservados. Landing page fictícia criada para demonstração.</p>
+  </footer>
+  <script src="./script.js"></script>
+</body>
+
+</html>
