@@ -169,7 +169,7 @@ header {
 }
 
 .slide-conteudo button:hover {
-  transform: translateY(-4px);
+  transform: scale(1.1);
 }
 
 .slide-img img {
@@ -349,10 +349,18 @@ header {
 .divulgacao-conteudo a {
   display: inline-block;
   padding: 24px 28px;
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   border: 2px solid #fff;
+  font-family: "Bebas neue", sans-serif;
   color: #fff;
   text-align: center;
+  transition: all 0.3s;
+}
+
+.divulgacao-conteudo a:hover {
+  color: #e8001d;
+  background: #080808;
+  border: 2px solid #080808;
 }
 
 /* Coleção */
@@ -576,7 +584,7 @@ header {
   font-family: "dm sans", sans-serif;
   margin-bottom: 24px;
 }
-.banner-container button {
+.banner-container a {
   display: inline;
   padding: 26px 48px;
   border: 2px solid #fff;
@@ -585,13 +593,12 @@ header {
   font-size: 1.25rem;
   font-family: "bebas neue", cursive;
   cursor: pointer;
-  transition: all 0.3 ease;
+  transition: all 0.3s;
 }
 
-.banner-container button:hover {
+.banner-container a:hover {
   background: #fff;
   color: #080808;
-  font-family: "dm sans", sans-serif;
 }
 
 /* FOOTER */
