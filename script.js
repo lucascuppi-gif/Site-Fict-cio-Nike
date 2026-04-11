@@ -2,8 +2,17 @@ const next = document.querySelector(".btn-nav.next");
 const back = document.querySelector(".btn-nav.back");
 const slides = document.querySelectorAll(".slide");
 const bolinhas = document.querySelectorAll(".bolinha");
+const links = document.querySelectorAll('a[href="#"]');
 
 let contador = 0;
+
+function desativarLinksVazios() {
+  links.forEach((link) =>
+    link.addEventListener("click", (e) => e.preventDefault()),
+  );
+}
+
+desativarLinksVazios();
 
 function passarSlide() {
   const slideAtivo = document.querySelector(".slide.ativo");
